@@ -7,7 +7,7 @@ Children:
   - Name: SamplingMode
     Type: PropertyType
     DataType: SamplingModeEnum
-    Value: 1
+    Value: 2
   - Name: Store
     Type: NodePointer
     DataType: NodeId
@@ -48,6 +48,15 @@ Children:
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
+      - Name: DeadBandMode
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+        Value: 1
+      - Name: DeadBandValue
+        Id: g=fca54149c209a221e3eafb290898e8ee
+        Type: PropertyType
+        DataType: Double
+        Value: 5.0
     - Name: Variable2
       Type: VariableToLog
       DataType: BaseDataType
@@ -76,6 +85,15 @@ Children:
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
+      - Name: DeadBandMode
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+        Value: 2
+      - Name: DeadBandValue
+        Id: g=260ae3f62db93eba33d8a4582a73f0dc
+        Type: PropertyType
+        DataType: Double
+        Value: 10.0
     - Name: Variable3
       Type: VariableToLog
       DataType: BaseDataType
@@ -104,6 +122,11 @@ Children:
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
+      - Name: DeadBandValue
+        Id: g=d3b744b14f5cb2bab146f485500b045e
+        Type: PropertyType
+        DataType: Double
+        Value: 0.0
   - Class: Reference
     Target: ns=8;i=21
     Direction: Forward
