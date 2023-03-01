@@ -43,5 +43,9 @@ Project:
    Uri: 'urn:FTOptix:SQLiteStore'
    Module: FTOptix.SQLiteStore
    Version: 1.0
+  11:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.0
  Nodes:
  - File: Nodes/Trends.yaml
